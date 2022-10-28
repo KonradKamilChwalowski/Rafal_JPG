@@ -73,7 +73,7 @@ const Scenes = [
                 nextText: "Pomocy"
             },
             {
-                text: '"Fantastycznie Mistrza wygląda, nie wiedziałem, że ma Mistrza czarny pas!" (rozmowa)',
+                text: '"Fantastycznie Mistrza wygląda, nie wiedziałem, że ma Mistrz czarny pas!" (rozmowa)',
                 nextText: "Strój"
             },
             {
@@ -154,6 +154,17 @@ const Scenes = [
             {
                 text: '"Niech mistrz zaczeka!" (rozmowa)',
                 nextText: "Sukces"
+            }
+        ]
+    },
+    {
+        id: "Strój",
+        text: '"Czarny pas to jeszcze nic: Mam też tytuł magistra!. Nie mniej jednak, widzę, że coś Cię trapi. Opowiadaj natychamiast"',
+        tlo: 'url("img/Zły.png")',
+        options: [
+            {
+                text: '"Zły urok przemienił nauczycieli w potwory! Potrzebuję pomocy!" (rozmowa)" (panikujesz)',
+                nextText: "Pomoc"
             }
         ]
     },
